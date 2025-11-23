@@ -1,0 +1,689 @@
+[
+  {
+    "id": 1,
+    "title": "Wonderwall",
+    "artist": "Oasis",
+    "lyrics": [
+      {
+        "type": "verse",
+        "lines": [
+          { "chord": "Em", "lyric": "Today is gonna be the day" },
+          { "chord": "G", "lyric": "That they're gonna throw it back to you" },
+          { "chord": "D", "lyric": "By now you should've somehow" },
+          { "chord": "A7sus4", "lyric": "Realized what you gotta do" }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          { "chord": "C", "lyric": "I said maybe" },
+          { "chord": "D", "lyric": "You're gonna be the one that saves me" },
+          { "chord": "Em G", "lyric": "And after all" },
+          { "chord": "C D Em", "lyric": "You're my wonderwall" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Let It Be",
+    "artist": "The Beatles",
+    "lyrics": [
+      {
+        "type": "verse",
+        "lines": [
+          { "chord": "C", "lyric": "When I find myself in times of trouble" },
+          { "chord": "G", "lyric": "Mother Mary comes to me" },
+          { "chord": "Am", "lyric": "Speaking words of wisdom" },
+          { "chord": "F C", "lyric": "Let it be" }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          { "chord": "Am", "lyric": "Let it be, let it be" },
+          { "chord": "G", "lyric": "Let it be, let it be" },
+          { "chord": "F", "lyric": "Whisper words of wisdom" },
+          { "chord": "C", "lyric": "Let it be" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "No Woman No Cry",
+    "artist": "Bob Marley",
+    "lyrics": [
+      {
+        "type": "chorus",
+        "lines": [
+          { "chord": "C", "lyric": "No woman, no cry" },
+          { "chord": "G", "lyric": "No woman, no cry" },
+          { "chord": "Am F", "lyric": "No woman, no cry" },
+          { "chord": "C G", "lyric": "No woman, no cry" }
+        ]
+      },
+      {
+        "type": "verse",
+        "lines": [
+          { "chord": "C", "lyric": "Said I remember when we used to sit" },
+          { "chord": "G", "lyric": "In a government yard in Trenchtown" },
+          { "chord": "Am", "lyric": "Observing the hypocrites" },
+          { "chord": "F C", "lyric": "As they would mingle with the good people we meet" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Niño Soldado",
+    "artist": "Skap",
+    "lyrics": [
+      {
+        "type": "verse",
+        "lines": [
+          {
+            "chord": "D A G",
+            "lyric": "Fui a nacer donde no hay nada"
+          },
+          {
+            "chord": "D A G",
+            "lyric": "Tras esa línea que separa el bien del mal"
+          },
+          {
+            "chord": "D A G",
+            "lyric": "Mi tierra se llama miseria"
+          },
+          {
+            "chord": "D A G",
+            "lyric": "Y no conozco la palabra libertad"
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "lines": [
+          {
+            "chord": "D A G",
+            "lyric": "Fui secuestrado en una guerra"
+          },
+          {
+            "chord": "D A G",
+            "lyric": "Torturado y preparado pa' matar"
+          },
+          {
+            "chord": "D A G",
+            "lyric": "Me han convertido en una bestia"
+          },
+          {
+            "chord": "D A G",
+            "lyric": "Soy solo un niño que no tiene identidad"
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          { "chord": "B D", "lyric": "Me han obligado a disparar" },
+          { "chord": "B D", "lyric": "Me han enseñado como asesinar" },
+          { "chord": "B D", "lyric": "Me han obligado a mutilar" },
+          { "chord": "B A", "lyric": "En un infierno terrenal" },
+          {
+            "chord": "D A B G",
+            "lyric": "Hey no! tu indiferencia no tiene perdón"
+          },
+          {
+            "chord": "G D A G",
+            "lyric": "Quién te robó el corazón, no te levantes del sillón"
+          },
+          {
+            "chord": "D A B G",
+            "lyric": "Hey no! tu indiferencia no tiene perdón"
+          },
+          {
+            "chord": "G D A G",
+            "lyric": "Quién te robó el corazón, apaga la televisión"
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "lines": [
+          {
+            "chord": "D A G",
+            "lyric": "Una pistola en mi cabeza"
+          },
+          {
+            "chord": "D A G",
+            "lyric": "Me está obligando a asesinar a mi papá"
+          },
+          {
+            "chord": "D A G",
+            "lyric": "Soy una máquina de guerra"
+          },
+          {
+            "chord": "D A G",
+            "lyric": "Mi dedo aprieta ese gatillo sin mirar"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Society",
+    "artist": "Eddie Vedder",
+    "lyrics": [
+      {
+        "type": "verse",
+        "lines": [
+          { "chord": "G", "lyric": "Oh it's a mystery to me" },
+          { "chord": "C", "lyric": "We have a greed with which we have agreed" },
+          { "chord": "G", "lyric": "And you think you have to want" },
+          { "chord": "C", "lyric": "More than you need" }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          { "chord": "G", "lyric": "Society, you're a crazy breed" },
+          { "chord": "C", "lyric": "I hope you're not lonely" },
+          { "chord": "G", "lyric": "Without me" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "De Burjassot a Tu",
+    "artist": "Atupa",
+    "lyrics": [
+      {
+        "type": "intro",
+        "lines": [
+          { "chord": "C G D Am C G D D", "lyric": "" },
+          { "chord": "Em G D Em Em G D A", "lyric": "" }
+        ]
+      },
+      {
+        "type": "verse",
+        "lines": [
+          {
+            "chord": "Em",
+            "lyric": "De Burjassot a tu comença amb rises en un bar."
+          },
+          {
+            "chord": "G",
+            "lyric": "Ens haurien connectat, tu m'hauries convidat"
+          },
+          {
+            "chord": "D",
+            "lyric": "Perquè no sol dur diners i no m'hauria semblat be."
+          },
+          {
+            "chord": "Em",
+            "lyric": "I t'hagués donat les gràcies per vindre al concert."
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "lines": [
+          {
+            "chord": "Em",
+            "lyric": "Desprès passegem fins a una antiga catedral"
+          },
+          {
+            "chord": "G",
+            "lyric": "On ja fa molts anys, si hagueren vist què féiem,"
+          },
+          {
+            "chord": "D",
+            "lyric": "Ens haurien manat cremar. A les portes del cel"
+          },
+          {
+            "chord": "A",
+            "lyric": "Passaria lent el temps i ens haurien oblidat"
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "lines": [
+          {
+            "chord": "Em",
+            "lyric": "Els nostres respectius amics de tan tard que es podria fer."
+          },
+          {
+            "chord": "G",
+            "lyric": "No haguérem tornat si no fora per aquell taxista estranger."
+          },
+          {
+            "chord": "D",
+            "lyric": "\"Deuríem aprofitar\", diria amb por de l'últim bes"
+          },
+          {
+            "chord": "A",
+            "lyric": "Sense importar-me que aquell home s'adonés del que hauríem fet"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Redemption Song",
+    "artist": "Bob Marley",
+    "lyrics": [
+      {
+        "type": "verse",
+        "lines": [
+          { "chord": "G", "lyric": "Old pirates, yes, they rob I" },
+          { "chord": "Em", "lyric": "Sold I to the merchant ships" },
+          { "chord": "C G", "lyric": "Minutes after they took I" },
+          { "chord": "Am", "lyric": "From the bottomless pit" }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          { "chord": "G", "lyric": "Emancipate yourselves from mental slavery" },
+          { "chord": "C D", "lyric": "None but ourselves can free our minds" },
+          { "chord": "G Em", "lyric": "Have no fear for atomic energy" },
+          { "chord": "C D G", "lyric": "'Cause none of them can stop the time" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Te Entiendo",
+    "artist": "Pignoise",
+    "lyrics": [
+      {
+        "type": "verse",
+        "lines": [
+          {
+            "chord": "A F#m",
+            "lyric": "No quiero perder la razón, mirando a cada instante a mi alrededor"
+          },
+          { "chord": "D", "lyric": "Sabiendo que no llamarás, ni te cruzarás" },
+          { "chord": "E", "lyric": "Que no mirarás, que no vas a estar." },
+          {
+            "chord": "A F#m",
+            "lyric": "Pero es que es tan fácil pensar, que cierta tarde tonta nos podemos cruzar"
+          },
+          { "chord": "D", "lyric": "¿Qué tal estás? Te veo bien." },
+          { "chord": "E", "lyric": "Se puede cortar, esta tarde gris yo me voy a ir." }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          { "chord": "A", "lyric": "Y quiero, olvidar todo y empezar de cero" },
+          { "chord": "F#m", "lyric": "Y tengo, una canción y muy poco dinero" },
+          {
+            "chord": "D",
+            "lyric": "Espero, tener la oportunidad para poder demostrar"
+          },
+          {
+            "chord": "E A",
+            "lyric": "Que nadie más te cuida y que solo yo te entiendo"
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "lines": [
+          { "chord": "A", "lyric": "Puede que no te vuelva a ver" },
+          { "chord": "F#m", "lyric": "En tres o cuatro años con la vida al revés" },
+          {
+            "chord": "D",
+            "lyric": "Quizás entonces pueda ser, otra tarde gris a punto"
+          },
+          { "chord": "E", "lyric": "De llover, sé que entonces sí." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Camals Mullats",
+    "artist": "La Gossa Sorda",
+    "lyrics": [
+      {
+        "type": "verse",
+        "lines": [
+          { "chord": "Bb", "lyric": "Cinc de la matinada" },
+          { "chord": "Dm", "lyric": "No esperava que acabarem" },
+          { "chord": "Gm", "lyric": "Pels carrers de ciutat vella" },
+          { "chord": "F", "lyric": "Tu davant i jo darrere." },
+          {
+            "chord": "Bb Dm Gm",
+            "lyric": "Valencia banyada, camals mullats, Valencia banyada."
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "lines": [
+          { "chord": "Bb", "lyric": "Pel carrer de cavallers" },
+          { "chord": "Dm", "lyric": "Dalt de una bicicleta vella" },
+          { "chord": "Gm", "lyric": "Recorriem la distància" },
+          { "chord": "F", "lyric": "I guardava l'equilibri" },
+          {
+            "chord": "Bb Dm Gm F",
+            "lyric": "Fregant-te amb les galtes l'esquena, camals mullats, fregant-te l'esquena."
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "lines": [
+          { "chord": "Bb", "lyric": "Carrer de la pau," },
+          { "chord": "Dm", "lyric": "Parterre, glorieta," },
+          { "chord": "Gm", "lyric": "Semàfor de jutjats," },
+          { "chord": "F", "lyric": "Frenada en sec" },
+          {
+            "chord": "Bb Dm Gm",
+            "lyric": "I els dos a terra somrius i et bese a la dreta," }
+          ,
+          {
+            "chord": "F",
+            "lyric": "Govern militar, hi ha un tio en metralleta" },
+          { "chord": "Bb", "lyric": "Que ens mira molt mal," },
+          { "chord": "Dm", "lyric": "Ja saps que passa." }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          { "chord": "Bb", "lyric": "T'estime, t'estimo, t'estim" },
+          { "chord": "Dm", "lyric": "T'estime, t'estimo, t'estim" },
+          { "chord": "Gm", "lyric": "T'estime, t'estimo, t'estim" }
+        ]
+      },
+      {
+        "type": "verse",
+        "lines": [
+          { "chord": "Bb", "lyric": "Poetes de la nit" },
+          { "chord": "Dm", "lyric": "Que fan que parlen les parets" },
+          { "chord": "Gm", "lyric": "A la València" },
+          { "chord": "F", "lyric": "De Blanquita i Estellés" },
+          {
+            "chord": "Bb Dm Gm",
+            "lyric": "I hem fet música mètrica sàtira, per canviar els teus desitjos"
+          },
+          {
+            "chord": "F",
+            "lyric": "Per matar els teus silencis, finestres balcons que no esperen benet"
+          },
+          {
+            "chord": "Bb",
+            "lyric": "A la València" },
+          {
+            "chord": "Dm",
+            "lyric": "De la FAI i de Basset"
+          },
+          {
+            "chord": "Gm",
+            "lyric": "I a cada barri se sent rebombori"
+          },
+          {
+            "chord": "F",
+            "lyric": "Unim les nostres forces come together everybody"
+          },
+          {
+            "chord": "Bb",
+            "lyric": "He retrobat l'espurna"
+          },
+          {
+            "chord": "Dm",
+            "lyric": "L'altra cara de la lluna"
+          },
+          {
+            "chord": "Gm",
+            "lyric": "Amb els veïns del Cabanyal i les veïnes de portades"
+          },
+          {
+            "chord": "F",
+            "lyric": "De la bunda l'espurna l'altra cara de la lluna." }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          {
+            "chord": "Bb",
+            "lyric": "I obrirem una altra porta evidenciant la mentida."
+          },
+          {
+            "chord": "Dm",
+            "lyric": "T'estime, t'estimo, t'estim"
+          },
+          {
+            "chord": "Gm",
+            "lyric": "Jo tinc en ment una València on els carrers són de plata."
+          },
+          {
+            "chord": "F",
+            "lyric": "T'estime, t'estimo, t'estim"
+          },
+          {
+            "chord": "Bb",
+            "lyric": "Jo sóc pacient i per això reiteraré fins que caiguen."
+          },
+          {
+            "chord": "Dm",
+            "lyric": "T'estime, t'estimo, t'estim"
+          },
+          {
+            "chord": "Gm",
+            "lyric": "Ja hem obert totes les ments i els portons de les cases."
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "lines": [
+          { "chord": "Bb", "lyric": "Murs de la metròpoli són de carbó" },
+          { "chord": "Dm", "lyric": "Les línies del metro la nostra presó" },
+          { "chord": "Gm", "lyric": "Spray i les parets de colors" },
+          {
+            "chord": "F",
+            "lyric": "Qui observa els mossos bon observador"
+          },
+          {
+            "chord": "Bb",
+            "lyric": "A la city li és igual per on sorti el sol"
+          },
+          {
+            "chord": "Dm",
+            "lyric": "Sap que si aixeco el cap només hi veig pols"
+          },
+          {
+            "chord": "Gm",
+            "lyric": "El barri somriu perquè no estem sols"
+          },
+          {
+            "chord": "F",
+            "lyric": "Parem els seus pals, exemples són molts"
+          },
+          {
+            "chord": "Bb",
+            "lyric": "Però cadascú amb el seu entorn"
+          },
+          {
+            "chord": "Dm",
+            "lyric": "Xarxa d'afinitats dinamitant els ciments del món"
+          },
+          {
+            "chord": "Gm",
+            "lyric": "Joventut i experiència"
+          },
+          {
+            "chord": "F",
+            "lyric": "Referents potents des de Sants fins a València"
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          {
+            "chord": "Bb",
+            "lyric": "I obrirem una altra porta evidenciant la mentida."
+          },
+          {
+            "chord": "Dm",
+            "lyric": "T'estime, t'estimo, t'estim"
+          },
+          {
+            "chord": "Gm",
+            "lyric": "Jo tinc en ment una València on els carrers són de plata."
+          },
+          {
+            "chord": "F",
+            "lyric": "T'estime, t'estimo, t'estim"
+          },
+          {
+            "chord": "Bb",
+            "lyric": "Jo sóc pacient i per això reiteraré fins que caiguen."
+          },
+          {
+            "chord": "Dm",
+            "lyric": "T'estime, t'estimo, t'estim"
+          },
+          {
+            "chord": "Gm",
+            "lyric": "Ja hem obert totes les ments i els portons de les cases."
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "lines": [
+          {
+            "chord": "Bb",
+            "lyric": "No hi ha tanta diferència"
+          },
+          {
+            "chord": "Dm",
+            "lyric": "La ciutat té barrots de ferro"
+          },
+          { "chord": "Gm", "lyric": "Barna, Sants, València" },
+          { "chord": "F", "lyric": "Porten les seves credencials" },
+          {
+            "chord": "Bb",
+            "lyric": "La Gossa Sorda Pirats Sound Sistema"
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "lines": [
+          {
+            "chord": "Bb",
+            "lyric": "Heu sentit l'olor a podrit"
+          },
+          {
+            "chord": "Dm",
+            "lyric": "De traició bellesa morta i violència"
+          },
+          {
+            "chord": "Gm",
+            "lyric": "O és que algú ha dit el nom de València"
+          },
+          {
+            "chord": "F",
+            "lyric": "En l'aire barreja de fem i salobre"
+          },
+          {
+            "chord": "Bb",
+            "lyric": "I sota terra la mort," },
+          {
+            "chord": "Dm",
+            "lyric": "La mort al metro dels pobres."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          {
+            "chord": "Bb",
+            "lyric": "I obrirem una altra porta evidenciant la mentida."
+          },
+          {
+            "chord": "Dm",
+            "lyric": "T'estime, t'estimo, t'estim"
+          },
+          {
+            "chord": "Gm",
+            "lyric": "Jo tinc en ment una València on els carrers són de plata."
+          },
+          {
+            "chord": "F",
+            "lyric": "T'estime, t'estimo, t'estim"
+          },
+          {
+            "chord": "Bb",
+            "lyric": "Jo sóc pacient i per això reiteraré fins que caiguen."
+          },
+          {
+            "chord": "Dm",
+            "lyric": "T'estime, t'estimo, t'estim"
+          },
+          {
+            "chord": "Gm",
+            "lyric": "Ja hem obert totes les ments i els portons de les cases."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          {
+            "chord": "Bb",
+            "lyric": "I obrirem una altra porta evidenciant la mentida."
+          },
+          {
+            "chord": "Dm",
+            "lyric": "T'estime, t'estimo, t'estim"
+          },
+          {
+            "chord": "Gm",
+            "lyric": "Jo tinc en ment una València on els carrers són de plata."
+          },
+          {
+            "chord": "F",
+            "lyric": "T'estime, t'estimo, t'estim"
+          },
+          {
+            "chord": "Bb",
+            "lyric": "Jo sóc pacient i per això reiteraré fins que caiguen."
+          },
+          {
+            "chord": "Dm",
+            "lyric": "T'estime, t'estimo, t'estim"
+          },
+          {
+            "chord": "Gm",
+            "lyric": "Ja hem obert totes les ments i els portons de les cases."
+          }
+        ]
+      },
+      {
+        "type": "outro",
+        "lines": [
+          { "chord": "Bb", "lyric": "Cinc de la matinada," },
+          { "chord": "Dm", "lyric": "No esperava que acabarem" },
+          {
+            "chord": "Gm",
+            "lyric": "Pels carrers de ciutat vella..., camals mullats."
+          }
+        ]
+      }
+    ]
+  }
+]

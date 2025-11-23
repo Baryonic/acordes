@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acordes - Song Chords & Lyrics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-header">
+                <h1 class="logo">🎸 Acordes</h1>
+                <button class="menu-toggle" id="menuToggle">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+            
+            <!-- Search Bar -->
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    class="search-input" 
+                    placeholder="Search for a song..."
+                >
+            </div>
+            
+            <!-- Song Menu -->
+            <div class="menu-container" id="menuContainer">
+                <ul class="song-list" id="songList">
+                    <!-- Songs will be loaded here by JavaScript -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content" id="mainContent">
+        <div class="welcome-message">
+            <h2>Welcome to Acordes</h2>
+            <p>Select a song from the menu or use the search bar to find your favorite songs with chords and lyrics.</p>
+        </div>
+        
+        <!-- Song content will be loaded here -->
+        <div class="song-container" id="songContainer"></div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

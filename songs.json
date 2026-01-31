@@ -685,5 +685,87 @@
         ]
       }
     ]
+
+  },
+  {
+    "id": 999,
+    "title": "Lloverá y yo veré",
+    "artist": "Desconocido",
+    "lyrics": [
+      {
+        "type": "verse",
+        "lines": [
+          { "chord": "RE", "lyric": "Cuando se cierra una puerta" },
+          { "chord": "FA#m", "lyric": "siempre se abre una ventana" },
+          { "chord": "RE", "lyric": "Hay que tomársela con ganas" },
+          { "chord": "MI FA#m", "lyric": "sabiendo que el que no llora no mama" },
+          { "chord": "RE", "lyric": "Al que levante la voz" },
+          { "chord": "FA#m", "lyric": "que se le sequen los morros" },
+          { "chord": "RE", "lyric": "y le amarguen las dudas" },
+          { "chord": "MI FA#m", "lyric": "si viéndose a oscuras no pida calor" }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          { "chord": "FA#m", "lyric": "Lloverá y yo veré, yo veré" },
+          { "chord": "RE", "lyric": "Lloverá y yo veré, yo veré" },
+          { "chord": "MI", "lyric": "Lloverá y yo veré, yo veré cuando pase el tifón" },
+          { "chord": "FA#m", "lyric": "nos llevará con él" },
+          { "chord": "FA#m", "lyric": "Lloverá y yo veré, yo veré" },
+          { "chord": "RE", "lyric": "Lloverá y yo veré, yo veré" },
+          { "chord": "MI", "lyric": "Lloverá y yo veré, yo veré y mano a mano a la luz" },
+          { "chord": "FA#m", "lyric": "perderemos la piel" }
+        ]
+      },
+      {
+        "type": "bridge",
+        "lines": [
+          { "chord": "FA#m RE MI FA#m", "lyric": "(x2)" }
+        ]
+      },
+      {
+        "type": "verse",
+        "lines": [
+          { "chord": "", "lyric": "Al que delegue en la suerte" },
+          { "chord": "", "lyric": "toda esperanza de vida" },
+          { "chord": "", "lyric": "que se le pase el arroz" },
+          { "chord": "", "lyric": "como a ti y a mi se nos pasa algún día" },
+          { "chord": "", "lyric": "y no creas tu que no" },
+          { "chord": "", "lyric": "que yo no me di cuenta" },
+          { "chord": "", "lyric": "que ya no podra ser" },
+          { "chord": "", "lyric": "que no podrá ser aunque yo esté de vuelta" }
+        ]
+      },
+      {
+        "type": "chorus",
+        "lines": [
+          { "chord": "FA#m", "lyric": "Lloverá y yo veré, yo veré" },
+          { "chord": "RE", "lyric": "Lloverá y yo veré, yo veré" },
+          { "chord": "MI", "lyric": "Lloverá y yo veré, yo veré cuando pase el tifón" },
+          { "chord": "FA#m", "lyric": "nos llevará con él" },
+          { "chord": "FA#m", "lyric": "Lloverá y yo veré, yo veré" },
+          { "chord": "RE", "lyric": "Lloverá y yo veré, yo veré" },
+          { "chord": "MI", "lyric": "Lloverá y yo veré, yo veré y mano a mano a la luz" },
+          { "chord": "FA#m", "lyric": "perderemos la piel" }
+        ]
+      },
+      {
+        "type": "bridge",
+        "lines": [
+          { "chord": "FA#m RE MI FA#m", "lyric": "(x2)" }
+        ]
+      },
+      {
+        "type": "outro",
+        "lines": [
+          { "chord": "FA#m", "lyric": "Lloverá y yo veré, yo veré" },
+          { "chord": "RE", "lyric": "Lloverá y yo veré, yo veré" },
+          { "chord": "MI", "lyric": "Lloverá y yo veré, lloverá y yo veré," },
+          { "chord": "FA#m", "lyric": "lloverá y yo veré" },
+          { "chord": "FA#m", "lyric": "(x3)" }
+        ]
+      }
+    ]
   }
 ]

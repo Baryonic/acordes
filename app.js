@@ -10,11 +10,16 @@ const searchInput = document.getElementById('searchInput');
 const songContainer = document.getElementById('songContainer');
 const mainContent = document.getElementById('mainContent');
 
+// Auto-scroll variables
+let autoscrollInterval = null;
+let isAutoscrolling = false;
+
 // Initialize the app
 async function init() {
     await loadSongs();
     renderSongList();
     setupEventListeners();
+    setupAutoscroll();
 }
 
 // Load songs from JSON
@@ -135,6 +140,62 @@ function setupEventListeners() {
         }
     });
 }
+
+// Setup auto-scroll controls
+function setupAutoscroll() {
+    const autoscrollBtn = document.getElementById('autoscrollBtn');
+    const scrollSpeedSlider = document.getElementById('scrollSpeed');
+    if (!autoscrollBtn || !scrollSpeedSlider) return;
+
+    autoscrollBtn.addEventListener('click', () => {
+        if (isAutoscrolling) {
+            stopAutoscroll();
+        } else {
+            startAutoscroll();
+        }
+    });
+
+    scrollSpeedSlider.addEventListener('input', () => {
+        if (isAutoscrolling) {
+            stopAutoscroll();
+            startAutoscroll();
+        }
+    });
+}
+
+function startAutoscroll() {
+    const autoscrollBtn = document.getElementById('autoscrollBtn');
+    const scrollSpeedSlider = document.getElementById('scrollSpeed');
+    if (!autoscrollBtn || !scrollSpeedSlider) return;
+    isAutoscrolling = true;
+    autoscrollBtn.textContent = 'Stop Scroll';
+    const speed = 11 - parseInt(scrollSpeedSlider.value, 10); // 1 (fastest) to 10 (slowest)
+    const step = 2 + (speed * 2); // px per interval
+    const interval = 20 + (speed * 8); // ms per interval
+    autoscrollInterval = setInterval(() => {
+        const maxScroll = document.body.scrollHeight - window.innerHeight;
+        if (window.scrollY >= maxScroll - 2) {
+            stopAutoscroll();
+            return;
+        }
+        window.scrollBy(0, step);
+    }, interval);
+}
+
+function stopAutoscroll() {
+    const autoscrollBtn = document.getElementById('autoscrollBtn');
+    if (autoscrollInterval) {
+        clearInterval(autoscrollInterval);
+        autoscrollInterval = null;
+    }
+    isAutoscrolling = false;
+    if (autoscrollBtn) autoscrollBtn.textContent = 'Auto Scroll';
+}
+
+// Stop autoscroll if user scrolls manually or resizes
+window.addEventListener('wheel', stopAutoscroll, { passive: true });
+window.addEventListener('touchmove', stopAutoscroll, { passive: true });
+window.addEventListener('resize', stopAutoscroll);
 
 // Initialize the app when DOM is loaded
 document.addEventListener('DOMContentLoaded', init);

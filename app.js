@@ -169,7 +169,7 @@ function startAutoscroll() {
     if (!autoscrollBtn || !scrollSpeedSlider) return;
     isAutoscrolling = true;
     autoscrollBtn.textContent = 'Stop Scroll';
-    const speed = 21 - parseInt(scrollSpeedSlider.value, 20); // 1 (fastest) to 10 (slowest)
+    const speed = 21 - parseInt(scrollSpeedSlider.value, 40); // 1 (fastest) to 10 (slowest)
     const step = 2 + (speed * 2); // px per interval
     const interval = 20 + (speed * 4); // ms per interval
     autoscrollInterval = setInterval(() => {
